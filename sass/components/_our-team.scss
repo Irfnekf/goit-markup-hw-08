@@ -1,0 +1,54 @@
+.our-team {
+  background-color: $secondary-bg-color;
+}
+.our-team__list {
+  display: flex;
+  gap: 30px;
+}
+
+.our-team__item {
+  background-color: $primay-bg-color;
+  text-align: center;
+  box-shadow: $box-shadow-card;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 90px) / 4);
+}
+
+.our-team__subtitle {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.our-team__text {
+  color: $primary-text-color;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.socials-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.socials-list__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: $icon-color;
+  transition: background-color $animation, fill $animation;
+
+  &:hover,
+  &:focus {
+    background-color: $button-link-primary;
+    fill: $primay-bg-color;
+  }
+}

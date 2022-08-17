@@ -1,0 +1,128 @@
+// header
+.header {
+  border-bottom: 1px solid $border-header-color;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+// logo
+
+.logo {
+  color: $button-link-primary;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  font-family: $logo-font;
+  margin-right: 93px;
+}
+
+.logo__text {
+  color: $logo-secondary-color;
+  letter-spacing: 0.03em;
+}
+
+// site nav
+
+.site-nav {
+  display: flex;
+  gap: 50px;
+}
+
+.site-nav__item {
+  letter-spacing: 0.02em;
+}
+
+.site-nav__link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &.site-nav__link--current {
+    color: $button-link-primary;
+  }
+}
+
+.site-nav__link--current {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: $button-link-primary;
+    border-radius: 2px;
+    bottom: 0;
+    right: 0;
+    animation: animation-current $animation;
+    color: $button-link-primary;
+  }
+}
+
+@keyframes animation-current {
+  0% {
+    transform: scaleX(1);
+  }
+
+  50% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.site-nav__link {
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  transition: color $animation;
+
+  &:hover,
+  &:focus {
+    color: $button-link-primary;
+    transition: color $animation;
+  }
+}
+
+// header-contact
+
+.header-contact {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
+.header-contact__link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  fill: currentColor;
+  gap: 10px;
+  transition: color $animation;
+
+  &:hover,
+  &:focus {
+    color: $button-link-primary;
+  }
+}

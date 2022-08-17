@@ -1,0 +1,45 @@
+$contacts-text-color: rgba(255, 255, 255, 0.6);
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$primay-bg-color: #ffffff;
+$secondary-bg-color: #f5f4fa;
+$tertiary-bg-color: #2f303a;
+$button-link-primary: #2196f3;
+$button-active-color: #188ce8;
+$logo-secondary-color: #000000;
+$project-card-shadow: #eeeeee;
+$box-form-button: rgba(0, 0, 0, 0.15);
+$border-header-color: #ececec;
+$icon-color: #afb1b8;
+$footer-icon-background: rgba(255, 255, 255, 0.1);
+$gradient-hero: rgba(47, 48, 58, 0.4);
+$text-bg-section: rgba(47, 48, 58, 0.8);
+$bg-project-hover: rgba(33, 150, 243, 0.9);
+$button-modal-border: rgba(0, 0, 0, 0.1);
+$bg-color-modal: rgba(0, 0, 0, 0.2);
+$placeholder-color: rgba(117, 117, 117, 0.5);
+$border-color-form: rgba(33, 33, 33, 0.2);
+$border-color-button-footer: rgba(255, 255, 255, 0.3);
+$form-hero-button-bg: rgba(0, 0, 0, 0.15);
+
+// animation
+$animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// box-shadow
+$box-shadow-card: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow-portfolio: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+$filtres-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+$modal-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+
+// fonts
+$primary-font: Roboto, sans-serif;
+$logo-font: 'Raleway';
+
+// mixins
+$left: 0;
+$top: 50%;
+$translate: translateY(-50%);

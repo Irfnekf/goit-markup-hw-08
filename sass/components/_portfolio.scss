@@ -1,0 +1,96 @@
+// filter
+
+.filtr-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+
+.filtr-list__button {
+  padding: 6px 22px 6px 22px;
+  background: $secondary-bg-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color $animation, color $animation, box-shadow $animation;
+
+  &:hover,
+  &:focus {
+    background-color: $button-link-primary;
+    color: $primay-bg-color;
+    box-shadow: $filtres-box-shadow;
+  }
+}
+
+// project
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.project__item {
+  width: calc((100% - 60px) / 3);
+}
+.project-link__aside-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: $primay-bg-color;
+  background-color: $bg-project-hover;
+
+  padding: 63px 24px;
+  height: 294px;
+  width: 100%;
+  @include translateXY($left, 0, translateY(100%));
+  opacity: 0;
+  transition: transform $animation, opacity $animation;
+
+  .project-link:hover &,
+  .project-link:focus & {
+    opacity: 1;
+    bottom: 100%;
+    transform: translate(0, 0);
+  }
+}
+.project-link__inner {
+  overflow: hidden;
+  position: relative;
+}
+.project-link {
+  text-decoration: none;
+  display: block;
+  transition: box-shadow $animation;
+
+  &:hover,
+  &:focus {
+    box-shadow: $box-shadow-portfolio;
+  }
+}
+
+.project-link__title {
+  color: $title-text-color;
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-link__inner-text {
+  padding: 20px 24px 20px 24px;
+  border: 1px solid $project-card-shadow;
+  border-top: 0;
+}
+.project-link__text {
+  color: $primary-text-color;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
