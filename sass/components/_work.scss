@@ -1,5 +1,10 @@
 .work {
   padding-top: 0;
+  display: none;
+
+  @include desktop {
+    display: contents;
+  }
 }
 .our-work__list {
   display: flex;

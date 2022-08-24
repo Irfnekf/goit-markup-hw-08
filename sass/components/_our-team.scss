@@ -3,6 +3,8 @@
 }
 .our-team__list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -11,7 +13,17 @@
   text-align: center;
   box-shadow: $box-shadow-card;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 90px) / 4);
+  width: 450px;
+  @include mobile {
+    max-width: 450px;
+  }
+
+  @include tablet {
+    width: calc((100% - 30px) / 2);
+  }
+  @include desktop {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .our-team__subtitle {
