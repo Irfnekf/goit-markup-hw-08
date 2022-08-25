@@ -22,6 +22,7 @@
   border: 0;
   cursor: pointer;
   font-family: inherit;
+  color: $title-text-color;
   transition: background-color $animation, color $animation, box-shadow $animation;
 
   &:hover,
@@ -78,6 +79,7 @@
   text-decoration: none;
   display: block;
   transition: box-shadow $animation;
+
   &:hover,
   &:focus {
     box-shadow: $box-shadow-portfolio;
