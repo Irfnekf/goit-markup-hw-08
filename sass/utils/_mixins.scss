@@ -1,9 +1,12 @@
+// centr
 @mixin translateXY($left, $top, $translate) {
   left: $left;
   top: $top;
   transform: $translate;
   position: absolute;
 }
+
+// adaptation
 
 @mixin mobile {
   @media screen and (min-width: 480px) {

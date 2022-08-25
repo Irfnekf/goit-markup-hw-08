@@ -17,7 +17,7 @@
 }
 .footer__container {
   display: flex;
-  justify-content: space-between;
+
   flex-direction: column;
   text-align: center;
   gap: 70px;
@@ -30,6 +30,7 @@
   }
   @include desktop {
     text-align: start;
+    justify-content: space-between;
     gap: 70px;
   }
 }
@@ -165,6 +166,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
 
   margin-right: auto;
   margin-left: auto;
@@ -172,8 +174,4 @@
   &:focus {
     background-color: $button-active-color;
   }
-}
-
-.footer-button__icon {
-  margin-left: 8px;
 }

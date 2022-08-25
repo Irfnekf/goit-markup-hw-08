@@ -32,13 +32,14 @@
   margin-bottom: 30px;
   color: $primay-bg-color;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 21px;
   line-height: 1.6;
   letter-spacing: 0.06em;
   max-width: 360px;
 
   @include mobile {
     max-width: 360px;
+    font-size: 26px;
   }
 
   @include tablet {
