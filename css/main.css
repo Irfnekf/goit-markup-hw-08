@@ -1365,11 +1365,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 50px;
   gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .filtr-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .filtr-list__button {
@@ -1401,11 +1407,21 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
-.project__item {
-  width: calc((100% - 60px) / 3);
+@media screen and (min-width: 768px) {
+  .project__item {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project__item {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .project-link__aside-text {
