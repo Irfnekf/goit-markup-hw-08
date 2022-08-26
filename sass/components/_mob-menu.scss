@@ -49,17 +49,14 @@
   }
 }
 
-.no-scroll {
-  overflow: hidden;
-}
 .mob-menu {
   position: fixed;
   background-color: $primay-bg-color;
-
+  overflow: auto;
   padding-top: 48px;
   padding-bottom: 48px;
 
-  height: 100%;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -148,4 +145,7 @@
   @include mobile {
     font-size: 18px;
   }
+}
+.no-scroll {
+  overflow: hidden;
 }
