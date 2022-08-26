@@ -50,15 +50,24 @@
 }
 .modal-window__button {
   position: absolute;
-  right: 8px;
-  top: 8px;
+  right: 14px;
+  top: 14px;
   border-radius: 60%;
   background-color: $primay-bg-color;
   border-color: $button-modal-border;
   cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.modal-window__button-icon {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  fill: $logo-secondary-color;
   transition: fill $animation;
 
-  &:hover {
+  .modal-window__button &:hover {
     fill: $button-active-color;
     transition: fill $animation;
   }
