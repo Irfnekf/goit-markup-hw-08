@@ -2,7 +2,7 @@
   const refs = {
     openMenuBtn: document.querySelector('.menu-open'),
     closeMenuBtn: document.querySelector('.menu-close'),
-    menu: document.querySelector('.mob-menu-backdrop'),
+    menu: document.querySelector('.mob-menu'),
     body: document.querySelector('body'),
   };
 
