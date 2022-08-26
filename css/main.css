@@ -205,9 +205,12 @@ body {
 .mob-menu-contact__mail {
   text-decoration: none;
   font-weight: 500;
-  font-size: 29px;
-  line-height: 1.17;
+  font-size: 19px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
+  color: #757575;
+}
+.mob-menu-contact__mail:hover, .mob-menu-contact__mail:focus {
   color: #2196f3;
 }
 @media screen and (min-width: 480px) {
@@ -219,10 +222,10 @@ body {
 .mob-menu-contact__tel {
   text-decoration: none;
   font-weight: 500;
-  font-size: 19px;
-  line-height: 1.16;
+  font-size: 29px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #2196f3;
 }
 @media screen and (min-width: 480px) {
   .mob-menu-contact__tel {

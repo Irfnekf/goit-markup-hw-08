@@ -98,10 +98,15 @@
 .mob-menu-contact__mail {
   text-decoration: none;
   font-weight: 500;
-  font-size: 29px;
-  line-height: 1.17;
+  font-size: 19px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
-  color: $button-link-primary;
+  color: $primary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $button-link-primary;
+  }
 
   @include mobile {
     font-size: 34px;
@@ -110,10 +115,10 @@
 .mob-menu-contact__tel {
   text-decoration: none;
   font-weight: 500;
-  font-size: 19px;
-  line-height: 1.16;
+  font-size: 29px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
-  color: $primary-text-color;
+  color: $button-link-primary;
 
   @include mobile {
     font-size: 24px;
