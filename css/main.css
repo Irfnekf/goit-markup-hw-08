@@ -188,6 +188,9 @@ body {
 .mob-menu__link:hover, .mob-menu__link:focus {
   color: #2196f3;
 }
+.mob-menu__link.mob-menu__link--current {
+  color: #2196f3;
+}
 @media screen and (min-width: 480px) {
   .mob-menu__link {
     font-size: 40px;
@@ -617,6 +620,12 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .peculiarity__title {
+    text-align: start;
+  }
 }
 
 .peculiarity__text {
@@ -1468,6 +1477,13 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .project {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 @media screen and (min-width: 768px) {

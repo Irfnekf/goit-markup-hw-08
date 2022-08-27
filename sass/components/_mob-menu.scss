@@ -85,6 +85,9 @@
     color: $button-link-primary;
   }
 
+  &.mob-menu__link--current {
+    color: $button-link-primary;
+  }
   @include mobile {
     font-size: 40px;
   }

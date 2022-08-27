@@ -49,42 +49,56 @@
             >
           </li>
         </ul>
-      <button class="menu-open" type="button"><svg width="40" height="40"><use href="./images/icons.svg.svg#icon-menu"></use></button>
+        <button class="menu-open" type="button">
+          <svg width="40" height="40"><use href="./images/icons.svg.svg#icon-menu"></use></svg>
+        </button>
       </div>
       <div class="mob-menu-backdrop">
         <div class="mob-menu">
-        <div class="container mob-menu__container">
-        <button class="menu-close" type="button"><svg width="40" height="40">
-          <use href="./images/icons.svg.svg#icon-close"></use></button>
-          <nav class="mob-menu__nav">
-          <ul class="mob-menu__list list">
-            <li class="mob-menu__item">
-              <a class="mob-menu__link" href="./index.html">Студия</a>
-            </li>
-            <li class="mob-menu__item">
-              <a class="mob-menu__link" href="">Портфолио</a>
-            </li>
-            <li class="mob-menu__item"><a class="mob-menu__link" href="">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="mob-menu-inner">
-        <ul class="mob-menu-contact list">
-          <li class="mob-menu-contact__item">
-            <a class="mob-menu-contact__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="mob-menu-contact__item">
-            <a class="mob-menu-contact__tel" href="tel:+380961111111"
-              >+38 096 111 11 11</a>
-          </li>
-        </ul> 
-        <ul class="mob-social-networks list">
-          <li class="mob-social-networks__item"><a class="mob-social-networks__link" href="">Instagram</a></li>
-          <li class="mob-social-networks__item"><a class="mob-social-networks__link" href="">Twitter</a></li>
-          <li class="mob-social-networks__item"><a class="mob-social-networks__link" href="">Facebook</a></li>
-          <li class="mob-social-networks__item"><a class="mob-social-networks__link" href="">LinkedIn</a></li>
-        </ul>
-        </div>
-        </div>
+          <div class="container mob-menu__container">
+            <button class="menu-close" type="button">
+              <svg width="40" height="40">
+                <use href="./images/icons.svg.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="mob-menu__nav">
+              <ul class="mob-menu__list list">
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link" href="./index.html">Студия</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link mob-menu__link--current" href="">Портфолио</a>
+                </li>
+                <li class="mob-menu__item"><a class="mob-menu__link" href="">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="mob-menu-inner">
+              <ul class="mob-menu-contact list">
+                <li class="mob-menu-contact__item">
+                  <a class="mob-menu-contact__mail" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="mob-menu-contact__item">
+                  <a class="mob-menu-contact__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+              <ul class="mob-social-networks list">
+                <li class="mob-social-networks__item">
+                  <a class="mob-social-networks__link" href="">Instagram</a>
+                </li>
+                <li class="mob-social-networks__item">
+                  <a class="mob-social-networks__link" href="">Twitter</a>
+                </li>
+                <li class="mob-social-networks__item">
+                  <a class="mob-social-networks__link" href="">Facebook</a>
+                </li>
+                <li class="mob-social-networks__item">
+                  <a class="mob-social-networks__link" href="">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -114,32 +128,25 @@
             <li class="project__item">
               <a class="project-link" href="">
                 <div class="project-link__inner">
-                     <picture>
-                <source
-                  srcset="./images/tehno-desk.jpg    1x, 
-                          ./images/tehno-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/tehno-tab.jpg    1x,
-                    ./images/tehno-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/tehno-mob.jpg    1x,
-                    ./images/tehno-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-               <img
-                    class="project-link__img"
-                    src="./images/tehno.jpg"
-                    alt="Ноутбук с портфолио"
-                  />
-              </picture>
+                  <picture>
+                    <source
+                      srcset="./images/tehno-desk.jpg 1x, ./images/tehno-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tehno-tab.jpg 1x, ./images/tehno-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/tehno-mob.jpg 1x, ./images/tehno-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-link__img"
+                      src="./images/tehno.jpg"
+                      alt="Ноутбук с портфолио"
+                    />
+                  </picture>
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -155,33 +162,26 @@
             <li class="project__item">
               <a class="project-link" href="">
                 <div class="project-link__inner">
-                        <picture>
-                <source
-                  srcset="./images/poster-desk.jpg    1x, 
-                          ./images/poster-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/poster-tab.jpg    1x,
-                    ./images/poster-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/poster-mob.jpg    1x,
-                    ./images/poster-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-               <img
-                    class="project-link__img"
-                    src="./images/poster.jpg"
-                    alt="Два мужчины играют в баскетбол"
-                  />
-              </picture>
-                  
+                  <picture>
+                    <source
+                      srcset="./images/poster-desk.jpg 1x, ./images/poster-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/poster-tab.jpg 1x, ./images/poster-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/poster-mob.jpg 1x, ./images/poster-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-link__img"
+                      src="./images/poster.jpg"
+                      alt="Два мужчины играют в баскетбол"
+                    />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -198,33 +198,26 @@
             <li class="project__item">
               <a class="project-link" href="">
                 <div class="project-link__inner">
-                    <picture>
-                <source
-                  srcset="./images/seafood-desk.jpg    1x, 
-                          ./images/seafood-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/seafood-tab.jpg    1x,
-                    ./images/seafood-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/seafood-mob.jpg    1x,
-                    ./images/seafood-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                 <img
-                    class="project-link__img"
-                    src="./images/seafood.jpg"
-                    alt="Логотип ресторана"
-                  />
-              </picture>
-                
+                  <picture>
+                    <source
+                      srcset="./images/seafood-desk.jpg 1x, ./images/seafood-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/seafood-tab.jpg 1x, ./images/seafood-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/seafood-mob.jpg 1x, ./images/seafood-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-link__img"
+                      src="./images/seafood.jpg"
+                      alt="Логотип ресторана"
+                    />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -240,33 +233,22 @@
             <li class="project__item">
               <a class="project-link" href="">
                 <div class="project-link__inner">
-                     <picture>
-                <source
-                  srcset="./images/prime-desk.jpg    1x, 
-                          ./images/prime-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/prime-tab.jpg    1x,
-                    ./images/prime-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/prime-mob.jpg    1x,
-                    ./images/prime-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/prime.jpg"
-                    alt="Наушники"
-                  />
-              </picture>
-                 
+                  <picture>
+                    <source
+                      srcset="./images/prime-desk.jpg 1x, ./images/prime-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/prime-tab.jpg 1x, ./images/prime-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/prime-mob.jpg 1x, ./images/prime-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img class="project-link__img" src="./images/prime.jpg" alt="Наушники" />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -283,32 +265,21 @@
               <a class="project-link" href="">
                 <div class="project-link__inner">
                   <picture>
-                <source
-                  srcset="./images/boxes-desk.jpg    1x, 
-                          ./images/boxes-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/boxes-tab.jpg    1x,
-                    ./images/boxes-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/boxes-mob.jpg    1x,
-                    ./images/boxes-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/boxes.jpg"
-                    alt="Две коробки"
-                  />
-              </picture>
-                  
+                    <source
+                      srcset="./images/boxes-desk.jpg 1x, ./images/boxes-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/boxes-tab.jpg 1x, ./images/boxes-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/boxes-mob.jpg 1x, ./images/boxes-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img class="project-link__img" src="./images/boxes.jpg" alt="Две коробки" />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -325,32 +296,25 @@
               <a class="project-link" href="">
                 <div class="project-link__inner">
                   <picture>
-                <source
-                  srcset="./images/borders-desk.jpg    1x, 
-                          ./images/borders-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/borders-tab.jpg    1x,
-                    ./images/borders-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/borders-mob.jpg    1x,
-                    ./images/borders-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/borders.jpg"
-                    alt="Монитор компьютера"
-                  />
-              </picture>
-                  
+                    <source
+                      srcset="./images/borders-desk.jpg 1x, ./images/borders-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/borders-tab.jpg 1x, ./images/borders-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/borders-mob.jpg 1x, ./images/borders-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-link__img"
+                      src="./images/borders.jpg"
+                      alt="Монитор компьютера"
+                    />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -367,32 +331,21 @@
               <a class="project-link" href="">
                 <div class="project-link__inner">
                   <picture>
-                <source
-                  srcset="./images/limited-desk.jpg    1x, 
-                          ./images/limited-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/limited-tab.jpg    1x,
-                    ./images/limited-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/limited-mob.jpg    1x,
-                    ./images/limited-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/limited.jpg"
-                    alt="Книга"
-                  />
-              </picture>
-                  
+                    <source
+                      srcset="./images/limited-desk.jpg 1x, ./images/limited-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/limited-tab.jpg 1x, ./images/limited-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/limited-mob.jpg 1x, ./images/limited-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img class="project-link__img" src="./images/limited.jpg" alt="Книга" />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -409,32 +362,21 @@
               <a class="project-link" href="">
                 <div class="project-link__inner">
                   <picture>
-                <source
-                  srcset="./images/lab-desk.jpg    1x, 
-                          ./images/lab-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/lab-tab.jpg    1x,
-                    ./images/lab-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/lab-mob.jpg    1x,
-                    ./images/lab-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/lab.jpg"
-                    alt="Бирка"
-                  />
-              </picture>
-                  
+                    <source
+                      srcset="./images/lab-desk.jpg 1x, ./images/lab-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/lab-tab.jpg 1x, ./images/lab-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/lab-mob.jpg 1x, ./images/lab-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img class="project-link__img" src="./images/lab.jpg" alt="Бирка" />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -450,33 +392,26 @@
             <li class="project__item">
               <a class="project-link" href="">
                 <div class="project-link__inner">
-                   <picture>
-                <source
-                  srcset="./images/growing-desk.jpg    1x, 
-                          ./images/growing-desk-2x.jpg 2x"
-                  media="(min-width: 1200px)"
-                />
-                <source
-                  srcset="
-                    ./images/growing-tab.jpg    1x,
-                    ./images/growing-tab-2x.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/growing-mob.jpg    1x,
-                    ./images/growing-mob-2x.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                  <img
-                    class="project-link__img"
-                    src="./images/growing.jpg"
-                    alt="Мужчина печатает на ноутбуке"
-                  />
-              </picture>
-                  
+                  <picture>
+                    <source
+                      srcset="./images/growing-desk.jpg 1x, ./images/growing-desk-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/growing-tab.jpg 1x, ./images/growing-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/growing-mob.jpg 1x, ./images/growing-mob-2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-link__img"
+                      src="./images/growing.jpg"
+                      alt="Мужчина печатает на ноутбуке"
+                    />
+                  </picture>
+
                   <p class="project-link__aside-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
