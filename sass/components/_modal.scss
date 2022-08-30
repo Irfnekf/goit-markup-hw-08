@@ -9,7 +9,7 @@
 
   width: 100%;
   height: 100%;
-
+  z-index: 200;
   transition: opacity $animation, background-color $animation;
 }
 .backdrop.is-hidden {

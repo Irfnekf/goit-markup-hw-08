@@ -1,6 +1,11 @@
 // header
 .header {
   border-bottom: 1px solid $border-header-color;
+  background-color: $primay-bg-color;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 .header-content {

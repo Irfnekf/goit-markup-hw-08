@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 60px;
 
   background-image: linear-gradient(to right, $gradient-hero, $gradient-hero),
     url(../images/header-img-mob.jpg);
@@ -22,6 +23,7 @@
 
   @include tablet {
     max-width: 768px;
+    margin-top: 80px;
 
     background-image: linear-gradient(to right, $gradient-hero, $gradient-hero),
       url(../images/header-img-tab.jpg);
